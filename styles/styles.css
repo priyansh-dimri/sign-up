@@ -9,3 +9,26 @@
   font-family: content-font;
   src: url(./../fonts/Merriweather/Merriweather-Light.ttf);
 }
+
+:root {
+  /* Background Colors */
+  --light-background-color: #b5b3b6;
+  --form-background-color: #e6e3e7;
+
+  /* Font Colors */
+  --dark-font-color: #181612;
+  --light-font-color: #c1bec2;
+  --input-font-color: #2a251b;
+  --link-font-color: #aa4c1c;
+  --invalid-font-color: #ca3210;
+
+  /* Button Background Colors */
+  --button-background-color: #73533f;
+  --button-focus-background-color: #4b392d;
+
+  /* Border Colors */
+  --active-border-color: #b15c31;
+  --invalid-border-color: #ca3210;
+
+  --shadow-color: #4b5c65;
+}
