@@ -1,0 +1,11 @@
+/* Bold Heading Font */
+@font-face {
+  font-family: heading-font;
+  src: url(./../fonts/Comfortaa/static/Comfortaa-Bold.ttf);
+}
+
+/* Light Content Serif Font */
+@font-face {
+  font-family: content-font;
+  src: url(./../fonts/Merriweather/Merriweather-Light.ttf);
+}
