@@ -13,7 +13,7 @@
 :root {
   /* Background Colors */
   --dark-background-color: #29251b8e;
-  --light-background-color: #b5b3b6;
+  --light-background-color: #eeeeee;
   --form-background-color: #e6e3e7;
 
   /* Font Colors */
@@ -48,6 +48,7 @@ a {
   display: flex;
 }
 
+/* Left Container Styles */
 .left-container {
   display: flex;
   flex-direction: column;
@@ -92,4 +93,10 @@ a {
   text-align: center;
   color: var(--light-font-color);
   background-color: var(--dark-background-color);
+}
+
+/* Right Container Styles */
+.right-container {
+  flex: 1;
+  background-color: var(--light-background-color); 
 }
