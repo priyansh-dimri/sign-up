@@ -34,7 +34,7 @@
   --shadow-color: #4b5c65;
 
   /* Size Variables */
-  --left-container-width: 40vw;
+  --left-container-width: 35vw;
 }
 
 /* Remove underline and inherit font color */
@@ -63,7 +63,7 @@ a {
   align-items: center;
   gap: 0.5rem;
 
-  margin-top: 30vh;
+  margin-top: 15vh;
   padding: 0.5rem 0;
   max-height: 4rem;
 
