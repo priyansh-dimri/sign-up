@@ -52,20 +52,23 @@ a {
   display: flex;
   flex-direction: column;
   flex: 0 0 var(--left-container-width);
+
   background-image: url("./../assets/hero.jpg");
   background-size: cover;
 }
 
 .form-logo-container {
-  margin-top: 30vh;
-  max-height: 4rem;
-  padding: 0.5rem 0;
-  text-align: center;
-  background-color: var(--dark-background-color);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+
+  margin-top: 30vh;
+  padding: 0.5rem 0;
+  max-height: 4rem;
+
+  text-align: center;
+  background-color: var(--dark-background-color);
 }
 
 .form-logo {
@@ -78,8 +81,8 @@ a {
     sans-serif;
   
   color: var(--light-font-color);
-
   font-size: 2rem;
+
   margin-top: 1.4rem;
 }
 
