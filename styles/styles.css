@@ -19,8 +19,8 @@
 :root {
   /* Background Colors */
   --dark-background-color: #29251b8e;
-  --light-background-color: #eeeeee;
-  --form-background-color: #e6e3e7;
+  --light-background-color: #e6e3e7;
+  --form-background-color: #f6f6f6;
 
   /* Font Colors */
   --dark-font-color: #181612;
