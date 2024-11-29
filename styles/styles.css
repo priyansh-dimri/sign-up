@@ -74,10 +74,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
 
   margin-top: 15vh;
-  padding: 0.5rem 0;
   max-height: 4rem;
 
   text-align: center;
@@ -96,7 +94,7 @@ a {
   color: var(--light-font-color);
   font-size: 2rem;
 
-  margin-top: 1.4rem;
+  margin-top: 0.7rem;
 }
 
 .attribution-container {
@@ -105,6 +103,7 @@ a {
   text-align: center;
   color: var(--light-font-color);
   background-color: var(--dark-background-color);
+  font-size: 0.7rem;
 }
 
 /* Right Container Styles */
@@ -163,6 +162,11 @@ input {
   padding: 0.2rem 0.5rem;
   border: 1px solid var(--simple-border-color);
   border-radius: 5px;
+  font-family: 'content-font';
+}
+
+input:focus {
+  outline: 1px solid var(--active-border-color);
 }
 
 .form-label {
