@@ -35,6 +35,7 @@
   --button-focus-background-color: #4b392d;
 
   /* Border Colors */
+  --simple-border-color: #cbc9c9;
   --active-border-color: #b15c31;
   --invalid-border-color: #ca3210;
 
@@ -158,10 +159,17 @@ a {
   margin-right: 2rem;
 }
 
+input {
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--simple-border-color);
+  border-radius: 5px;
+}
+
 .form-label {
   font-family: 'heading-light-font';
   font-size: 0.7rem;
   margin-bottom: 0.2rem;
+  padding-inline-start: 0.5rem;
 }
 
 .submit-container {
