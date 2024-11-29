@@ -141,7 +141,7 @@ a {
 
 .inner-form-container {
   flex: 1;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   display: flex;
   flex-wrap: wrap;
   background-color: var(--form-background-color);
@@ -182,7 +182,7 @@ input:focus {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 1rem 2rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .submit-button {
