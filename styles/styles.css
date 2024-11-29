@@ -127,6 +127,7 @@ a {
 .content {
   font-family: "heading-light-font";
   width: 100%;
+  color: #4b392d;
 }
 
 .form-container {
@@ -134,9 +135,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: start;
+  justify-content: start;
 }
 
 .inner-form-container {
+  flex: 1;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -176,4 +179,13 @@ a {
   outline: none;
   border: none;
   padding: 0.5rem 1rem
+}
+
+.submit-container-content {
+  margin: 1rem 0;
+
+  a {
+    color: var(--button-background-color);
+    font-weight: bold;
+  }
 }
