@@ -149,6 +149,7 @@ a {
 
 .inner-form-heading {
   margin-bottom: 1rem;
+  padding-inline-start: 0.5rem;
 }
 
 .form-input-container {
