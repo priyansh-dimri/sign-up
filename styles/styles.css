@@ -150,7 +150,7 @@ a {
 
 .inner-form-heading {
   margin-bottom: 1rem;
-  padding-inline-start: 0.5rem;
+  padding-inline-start: 0.2rem;
 }
 
 .form-input-container {
@@ -173,9 +173,10 @@ input:focus {
 
 .form-label {
   font-family: 'heading-light-font';
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   margin-bottom: 0.2rem;
-  padding-inline-start: 0.5rem;
+  padding-inline-start: 0.3rem;
+  letter-spacing: 0.05rem;
 }
 
 .submit-container {
