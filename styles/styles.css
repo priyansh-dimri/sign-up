@@ -29,6 +29,7 @@
   --link-font-light-color: #da8c66;
   --link-font-dark-color: #aa4c1c;
   --invalid-font-color: #ca3210;
+  --button-focus-font-color: #ab5225;
 
   /* Button Background Colors */
   --button-background-color: #73533f;
@@ -194,11 +195,20 @@ input:focus {
   padding: 0.5rem 1rem
 }
 
+.submit-button:active {
+  background-color: var(--button-focus-background-color);
+  color: var(--button-focus-font-color);
+}
+
 .submit-container-content {
   margin: 1rem 0;
 
   a {
     color: var(--button-background-color);
     font-weight: bold;
+  }
+  
+  a:hover {
+    color: var(--button-focus-background-color);
   }
 }
