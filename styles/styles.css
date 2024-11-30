@@ -38,7 +38,7 @@
   /* Border Colors */
   --simple-border-color: #cbc9c9;
   --active-border-color: #b15c31;
-  --invalid-border-color: #ca3210;
+  --invalid-border-color: #ff0000;
 
   --shadow-color: #4b5c6577;
 
@@ -169,6 +169,10 @@ input {
 
 input:focus {
   outline: 1px solid var(--active-border-color);
+}
+
+input:user-invalid {
+  outline: 1px solid var(--invalid-border-color);
 }
 
 .form-label {
